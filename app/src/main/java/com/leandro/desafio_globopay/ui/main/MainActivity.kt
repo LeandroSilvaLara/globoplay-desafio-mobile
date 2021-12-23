@@ -1,4 +1,4 @@
-package com.leandro.desafio_globopay
+package com.leandro.desafio_globopay.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

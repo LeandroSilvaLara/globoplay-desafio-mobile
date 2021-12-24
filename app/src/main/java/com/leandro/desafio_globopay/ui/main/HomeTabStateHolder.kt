@@ -1,4 +1,9 @@
 package com.leandro.desafio_globopay.ui.main
 
-class HomeTabStateHolder {
-}
+import androidx.compose.foundation.lazy.LazyListState
+
+data class HomeTabStateHolder (
+    val movieLazyListState: LazyListState,
+    val tvLazyListState: LazyListState,
+    val peopleLazyListState: LazyListState,
+)

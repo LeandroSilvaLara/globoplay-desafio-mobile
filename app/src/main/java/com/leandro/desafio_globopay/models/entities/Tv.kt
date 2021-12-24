@@ -2,6 +2,9 @@ package com.leandro.desafio_globopay.models.entities
 
 import androidx.compose.runtime.Immutable
 import androidx.room.Entity
+import com.leandro.desafio_globopay.models.Keyword
+import com.leandro.desafio_globopay.models.Review
+import com.leandro.desafio_globopay.models.Video
 
 
 @Immutable

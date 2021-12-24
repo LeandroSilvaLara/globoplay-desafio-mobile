@@ -3,6 +3,7 @@ package com.leandro.desafio_globopay.models.entities
 import androidx.compose.runtime.Immutable
 import androidx.room.Embedded
 import androidx.room.Entity
+import com.leandro.desafio_globopay.models.network.PersonDetail
 
 @Immutable
 @Entity(tableName = "People", primaryKeys = ["id"])

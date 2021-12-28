@@ -3,14 +3,15 @@
     package="com.leandro.desafio_globopay">
 
     <application
-        android:allowBackup="true"
+        android:name=".MovieComposeApp"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio_GloboPay">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Desafio_GloboPay.NoActionBar">

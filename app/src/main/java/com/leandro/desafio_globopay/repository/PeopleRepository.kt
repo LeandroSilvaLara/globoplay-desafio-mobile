@@ -2,9 +2,14 @@ package com.leandro.desafio_globopay.repository
 
 import androidx.annotation.WorkerThread
 import com.leandro.desafio_globopay.network.service.PeopleService
+import com.leandro.desafio_globopay.persistence.PeopleDao
+import com.skydoves.sandwich.onError
+import com.skydoves.sandwich.onException
 import com.skydoves.sandwich.suspendOnSuccess
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.onCompletion
 import timber.log.Timber
 
 

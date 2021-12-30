@@ -2,11 +2,13 @@ package com.leandro.desafio_globopay.ui.movie
 
 import android.content.Intent
 import android.net.Uri
+import android.widget.RatingBar
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.R
 import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -27,8 +29,15 @@ import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.palette.graphics.Palette
 import com.google.accompanist.flowlayout.FlowRow
+import com.leandro.desafio_globopay.models.Video
+import com.leandro.desafio_globopay.models.entities.Movie
+import com.leandro.desafio_globopay.network.Api
+import com.leandro.desafio_globopay.network.compose.NetworkImage
+import com.leandro.desafio_globopay.ui.custom.AppBarWithArrow
+import com.leandro.desafio_globopay.ui.theme.background
 import com.skydoves.landscapist.CircularReveal
 import com.skydoves.landscapist.palette.BitmapPalette
+import com.skydoves.whatif.whatIfNotNullOrEmpty
 
 
 @Composable

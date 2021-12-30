@@ -5,10 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.leandro.desafio_globopay.models.network.PersonDetail
 import com.leandro.desafio_globopay.repository.PeopleRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.*
 import timber.log.Timber
 import javax.inject.Inject
 

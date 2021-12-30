@@ -1,11 +1,14 @@
 package com.leandro.desafio_globopay.repository
 
 import androidx.annotation.WorkerThread
+import com.leandro.desafio_globopay.persistence.MovieDao
+import com.leandro.desafio_globopay.persistence.TvDao
 import com.leandro.desafio_globopay.ui.models.network.service.TheDiscoverService
-import com.skydoves.moviecompose.network.service.TheDiscoverService
 import com.skydoves.sandwich.suspendOnSuccess
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.onCompletion
 import timber.log.Timber
 
 class DiscoverRepository constructor(

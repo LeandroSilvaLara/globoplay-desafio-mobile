@@ -6,8 +6,7 @@ import androidx.room.TypeConverters
 import com.leandro.desafio_globopay.models.entities.Movie
 import com.leandro.desafio_globopay.models.entities.Person
 import com.leandro.desafio_globopay.models.entities.Tv
-import com.leandro.desafio_globopay.persistence.converters.IntegerListConverter
-import com.leandro.desafio_globopay.persistence.converters.StringListConverter
+import com.leandro.desafio_globopay.persistence.converters.*
 
 @Database(
     entities = [(Movie::class), (Tv::class), (Person::class)],

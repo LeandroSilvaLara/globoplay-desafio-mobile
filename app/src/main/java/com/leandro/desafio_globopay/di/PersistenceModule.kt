@@ -2,6 +2,10 @@ package com.leandro.desafio_globopay.di
 
 import android.content.Context
 import androidx.room.Room
+import com.leandro.desafio_globopay.persistence.AppDatabase
+import com.leandro.desafio_globopay.persistence.MovieDao
+import com.leandro.desafio_globopay.persistence.PeopleDao
+import com.leandro.desafio_globopay.persistence.TvDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,9 +1,11 @@
 package com.leandro.desafio_globopay.repository
 
 import androidx.annotation.WorkerThread
+import com.leandro.desafio_globopay.network.service.TheDiscoverService
 import com.leandro.desafio_globopay.persistence.MovieDao
 import com.leandro.desafio_globopay.persistence.TvDao
-import com.leandro.desafio_globopay.ui.models.network.service.TheDiscoverService
+import com.skydoves.sandwich.onError
+import com.skydoves.sandwich.onException
 import com.skydoves.sandwich.suspendOnSuccess
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow

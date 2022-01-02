@@ -2,7 +2,7 @@ package com.leandro.desafio_globopay.initializer
 
 import android.content.Context
 import androidx.startup.Initializer
-import com.leandro.desafio_globopay.BuildConfig
+import androidx.viewbinding.BuildConfig
 import timber.log.Timber
 
 class TimberInitializer: Initializer<Unit> {

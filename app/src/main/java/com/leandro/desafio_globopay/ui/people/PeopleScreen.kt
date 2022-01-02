@@ -11,7 +11,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -22,8 +24,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import com.google.accompanist.insets.statusBarsPadding
+import com.leandro.desafio_globopay.extensions.paging
+import com.leandro.desafio_globopay.models.entities.Person
+import com.leandro.desafio_globopay.network.Api
+import com.leandro.desafio_globopay.network.compose.NetworkImage
+import com.leandro.desafio_globopay.ui.main.MainScreenHomeTab
 import com.leandro.desafio_globopay.ui.main.MainViewModel
 import com.leandro.desafio_globopay.ui.models.network.NetworkState
+import com.leandro.desafio_globopay.ui.models.network.onLoading
+import com.leandro.desafio_globopay.ui.theme.background800
 
 @Composable
 fun PeopleScreen(

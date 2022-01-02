@@ -9,9 +9,9 @@ import coil.ImageLoader
 import com.leandro.desafio_globopay.models.entities.Movie
 import com.leandro.desafio_globopay.models.entities.Person
 import com.leandro.desafio_globopay.models.entities.Tv
+import com.leandro.desafio_globopay.models.network.NetworkState
 import com.leandro.desafio_globopay.repository.DiscoverRepository
 import com.leandro.desafio_globopay.repository.PeopleRepository
-import com.leandro.desafio_globopay.ui.models.network.NetworkState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*

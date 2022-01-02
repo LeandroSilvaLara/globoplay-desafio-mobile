@@ -2,6 +2,7 @@ package com.leandro.desafio_globopay.ui.tv
 
 import android.content.Intent
 import android.net.Uri
+import android.net.wifi.WifiConfiguration.AuthAlgorithm.strings
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -41,7 +42,6 @@ import com.leandro.desafio_globopay.ui.theme.purple200
 import com.skydoves.landscapist.CircularReveal
 import com.skydoves.landscapist.palette.BitmapPalette
 import com.skydoves.whatif.whatIfNotNullOrEmpty
-
 
 @Composable
 fun TvDetailScreen(

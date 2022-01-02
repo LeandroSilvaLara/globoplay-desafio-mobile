@@ -1,6 +1,16 @@
 package com.leandro.desafio_globopay.di
 
+import com.leandro.desafio_globopay.network.service.MovieService
+import com.leandro.desafio_globopay.network.service.PeopleService
+import com.leandro.desafio_globopay.network.service.TheDiscoverService
+import com.leandro.desafio_globopay.network.service.TvService
+import com.leandro.desafio_globopay.persistence.MovieDao
+import com.leandro.desafio_globopay.persistence.PeopleDao
+import com.leandro.desafio_globopay.persistence.TvDao
+import com.leandro.desafio_globopay.repository.DiscoverRepository
+import com.leandro.desafio_globopay.repository.MovieRepository
 import com.leandro.desafio_globopay.repository.PeopleRepository
+import com.leandro.desafio_globopay.repository.TvRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

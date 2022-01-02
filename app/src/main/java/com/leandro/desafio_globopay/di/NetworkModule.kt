@@ -6,8 +6,8 @@ import com.leandro.desafio_globopay.network.Api
 import com.leandro.desafio_globopay.network.RequestInterceptor
 import com.leandro.desafio_globopay.network.service.MovieService
 import com.leandro.desafio_globopay.network.service.PeopleService
+import com.leandro.desafio_globopay.network.service.TheDiscoverService
 import com.leandro.desafio_globopay.network.service.TvService
-import com.leandro.desafio_globopay.ui.models.network.service.TheDiscoverService
 import com.skydoves.sandwich.coroutines.CoroutinesResponseCallAdapterFactory
 import dagger.Module
 import dagger.Provides

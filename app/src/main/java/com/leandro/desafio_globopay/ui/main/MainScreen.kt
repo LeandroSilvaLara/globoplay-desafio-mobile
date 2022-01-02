@@ -28,7 +28,12 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.google.accompanist.insets.ProvideWindowInsets
+import com.leandro.desafio_globopay.R
+import com.leandro.desafio_globopay.ui.movie.MovieDetailScreen
 import com.leandro.desafio_globopay.ui.navigation.NavScreen
+import com.leandro.desafio_globopay.ui.people.PersonDetailScreen
+import com.leandro.desafio_globopay.ui.theme.purple200
+import com.leandro.desafio_globopay.ui.tv.TvDetailScreen
 
 
 @Composable

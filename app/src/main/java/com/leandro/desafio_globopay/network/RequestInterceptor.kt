@@ -1,11 +1,13 @@
 package com.leandro.desafio_globopay.network
 
-import coil.intercept.Interceptor
+
+
 import com.leandro.desafio_globopay.BuildConfig
+import okhttp3.Interceptor
 import okhttp3.Response
 
-internal class RequestInterceptor : okhttp3.Interceptor {
-    override fun intercept(chain: okhttp3.Interceptor.Chain): Response {
+internal class RequestInterceptor : Interceptor {
+    override fun intercept(chain: Interceptor.Chain): Response {
         val originalRequest = chain.request()
         val originalUrl = originalRequest.url
         val url = originalUrl.newBuilder()
@@ -16,4 +18,6 @@ internal class RequestInterceptor : okhttp3.Interceptor {
         val request = requestBuilder.build()
         return chain.proceed(request)
     }
+
+
 }

@@ -11,7 +11,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.insets.navigationBarsHeight
 import com.google.accompanist.insets.navigationBarsPadding
+import com.leandro.desafio_globopay.ui.movie.MovieScreen
+import com.leandro.desafio_globopay.ui.people.PeopleScreen
 import com.leandro.desafio_globopay.ui.theme.purple200
+import com.leandro.desafio_globopay.ui.tv.TvScreen
 
 
 @Composable

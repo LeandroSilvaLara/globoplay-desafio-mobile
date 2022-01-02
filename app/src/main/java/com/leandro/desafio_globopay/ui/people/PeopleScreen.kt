@@ -26,12 +26,12 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import com.google.accompanist.insets.statusBarsPadding
 import com.leandro.desafio_globopay.extensions.paging
 import com.leandro.desafio_globopay.models.entities.Person
+import com.leandro.desafio_globopay.models.network.NetworkState
+import com.leandro.desafio_globopay.models.network.onLoading
 import com.leandro.desafio_globopay.network.Api
 import com.leandro.desafio_globopay.network.compose.NetworkImage
 import com.leandro.desafio_globopay.ui.main.MainScreenHomeTab
 import com.leandro.desafio_globopay.ui.main.MainViewModel
-import com.leandro.desafio_globopay.ui.models.network.NetworkState
-import com.leandro.desafio_globopay.ui.models.network.onLoading
 import com.leandro.desafio_globopay.ui.theme.background800
 
 @Composable
